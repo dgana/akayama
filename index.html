@@ -1,49 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Akayama</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
-  <link rel="stylesheet" href="css/index.css" />
-  <title>Akayama</title>
-</head>
-
-<body>
-  <header class="mt3">
-    <div class="flex justify-center items-center h3">
-      <div class="mr2"><img src="https://www.augment.com/wp-content/uploads/2015/06/small-logo.png" class="w3" /></div>
-      <h2 class="fw1 tracked">Akayama</h2>
-    </div>
-    <div class="flex justify-center items-center mv3">
-      <h2 class="mt2 mb0 f6 tracked">
-        <hr class="w2 dib mv1" /> Please select your inquiry
-        <hr class="w2 dib mv1" />
-      </h2>
-    </div>
-  </header>
-  <section>
-    <a href="product.html">
-      <div onmouseover="productOver()" onmouseout="productOut()" class="w-100 h45 mb1 flex justify-center items-center">
-        <img class="w-100 max-height45 dim1 pointer" src="https://picsum.photos/800/200/?image=0" />
-        <h1 id="product" class="tc absolute mv0 dn font1 white tracked ttu">Product</h1>
+  <body>
+    <header class="mt3">
+      <div class="flex justify-center items-center h3">
+        <div class="mr2">
+          <img
+            src="https://www.augment.com/wp-content/uploads/2015/06/small-logo.png"
+            class="w2"
+          />
+        </div>
+        <h2 class="fw1 tracked">Akayama</h2>
       </div>
-    </a>
-    <div onmouseover="importOver()" onmouseout="importOut()" class="w-100 h45 mb1 flex justify-center items-center">
-      <img class="w-100 max-height45 dim1 pointer" src="https://picsum.photos/800/200/?image=1033" />
-      <h1 id="import" class="tc absolute mv0 dn font1 white tracked ttu">Import</h1>
-    </div>
-    <div onmouseover="exportOver()" onmouseout="exportOut()" class="w-100 h45 mb3 flex justify-center items-center">
-      <img class="w-100 max-height45 dim1 pointer" src="https://picsum.photos/800/200/?image=1059" />
-      <h1 id="export" class="tc absolute mv0 dn font1 white tracked ttu">Export</h1>
-    </div>
-  </section>
-  <footer class="pv4 ph3 ph5-m ph6-l">
-    <small class="f5 db tc">Subsidiary of PT DAISEN WOOD FRAMES</small>
-    <small class="f7 db tc">© 2018 Akayama. All rights reserved</small>
-  </footer>
-</body>
-<script type="text/javascript" src="js/index.js"></script>
-
+      <div class="flex justify-center items-center mt0 mb3">
+        <h2 class="mt2 mb0 f6 tracked font1 fw1">
+          <hr class="w2 dib mv1" />
+          Please select your inquiry
+          <hr class="w2 dib mv1" />
+        </h2>
+      </div>
+    </header>
+    <section>
+      <a href="product.html">
+        <div
+          onmouseover="productOver()"
+          onmouseout="productOut()"
+          class="w-100 h45 mb1 flex justify-center items-center"
+        >
+          <img
+            class="w-100 h45 dim1 pointer"
+            src="https://picsum.photos/800/200/?image=1044"
+          />
+          <h1 id="product" class="tc absolute mv0 dn font1 white tracked ttu">
+            Product
+          </h1>
+        </div>
+      </a>
+      <div
+        onmouseover="importOver()"
+        onmouseout="importOut()"
+        class="w-100 h45 mb1 flex justify-center items-center"
+      >
+        <img
+          class="w-100 h45 dim1 pointer"
+          src="https://picsum.photos/800/200/?image=1033"
+        />
+        <h1 id="import" class="tc absolute mv0 dn font1 white tracked ttu">
+          Import
+        </h1>
+      </div>
+      <div
+        onmouseover="exportOver()"
+        onmouseout="exportOut()"
+        class="w-100 h45 mb3 flex justify-center items-center"
+      >
+        <img
+          class="w-100 h45 dim1 pointer"
+          src="https://picsum.photos/800/200/?image=1049"
+        />
+        <h1 id="export" class="tc absolute mv0 dn font1 white tracked ttu">
+          Export
+        </h1>
+      </div>
+    </section>
+    <footer class="pv4 ph3 ph5-m ph6-l">
+      <small class="f7 db tc black-80"
+        >© 2018 Akayama. All rights reserved</small
+      >
+      <small class="f5 db tc black-80"
+        >Subsidiary of PT DAISEN WOOD FRAMES</small
+      >
+    </footer>
+  </body>
+  <script type="text/javascript" src="js/index.js"></script>
 </html>
