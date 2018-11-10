@@ -1,0 +1,102 @@
+* {
+  font-family: MBaskerville;
+}
+
+.font1 {
+  font-family: AvantGardeMdITC;
+}
+
+.font2 {
+  font-family: MBaskerville-Italic;
+}
+
+.font3 {
+  font-family: MBaskerville-SemiBold;
+}
+
+.font4 {
+  font-family: MBaskerville-SemiBoldItalic;
+}
+
+.font5 {
+  font-family: MBaskerville;
+}
+
+.max-height1 {
+  max-height: 1rem;
+}
+
+.max-height2 {
+  max-height: 2rem;
+}
+
+.max-height3 {
+  max-height: 4rem;
+}
+
+.max-height4 {
+  max-height: 8rem;
+}
+
+.max-height45 {
+  max-height: 10rem;
+}
+
+.max-height5 {
+  max-height: 16rem;
+}
+
+.h45 {
+  height: 10rem;
+}
+
+.dim1 {
+  opacity: 1;
+  transition: opacity 0.15s ease-in;
+}
+
+.dim1:hover,
+.dim1:focus {
+  opacity: 0.75;
+  transition: opacity 0.15s ease-in;
+}
+
+.dim1:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+.slick-prev {
+  margin-left: 40px;
+  z-index: 1;
+}
+
+.slick-next {
+  margin-right: 40px;
+  z-index: 1;
+}
+
+@font-face {
+  font-family: AvantGardeMdITC;
+  src: url("../font/AvantGardeMdITC.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MBaskerville-Italic;
+  src: url("../font/MBaskerville-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MBaskerville-SemiBold;
+  src: url("../font/MBaskerville-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MBaskerville-SemiBoldItalic;
+  src: url("../font/MBaskerville-SemiBoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MBaskerville;
+  src: url("../font/MBaskerville.otf") format("opentype");
+}
