@@ -1,3 +1,3 @@
 # akayama
 
-Readme Akayama website
+Readme Akayama
